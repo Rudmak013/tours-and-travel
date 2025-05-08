@@ -2,5 +2,4 @@ The "Travel World" is a sophisticated tour management website built on the MERN 
 
 The platform fosters a sense of community by enabling users to interact, exchange travel tips, and share their adventures through user-generated content. With personalized profiles, users can track their booking history and receive tailored recommendations, ensuring a personalized and immersive travel planning experience. "Travel World" aspires to be the go-to platform for travellers, offering convenience, inspiration, and trust in their exploration of the world.
 
-![image](https://github.com/user-attachments/assets/3835e43e-bdc3-466b-9e1b-8e118366dea8)
-![image](https://github.com/user-attachments/assets/4e9c4fff-6227-4acf-89ac-3521effd9dd5)
+
