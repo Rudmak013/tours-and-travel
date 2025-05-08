@@ -1,0 +1,165 @@
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo img{
+    width: 30%;
+}
+
+.menu {
+    margin-bottom: 0;
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.nav_item a:hover{
+    color: grey;
+}
+
+.nav_item a.active_link {
+    color:var(--secondary-color);
+
+}
+
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+
+.sticky_header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+
+/* .button1 {
+  align-items: center;
+  appearance: none;
+  background-color: var(--secondary-color);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button1 a{
+    text-decoration:none!important ;
+    color: white;
+}
+
+.button1 a:hover{
+    color: grey;
+}
+
+
+.button {
+    align-items: center;
+    appearance: none;
+    background-color: white;
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button a{
+    text-decoration:none!important ;
+    color: black;
+}
+
+.button a:hover{
+    color: grey;
+}
+ */
+
+/* ============ responsive ============== */
+@media only screen and (max-width:992px) {
+    .logo img{
+        width: 20% !important;
+    }
+    
+    .navigation{
+        width: 100%;
+        height: 100%; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #00000050;
+        z-index: 999;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 75%);
+        height: 100%;
+        background:#fff;
+        flex-direction: column;
+        line-height: 0.5rem;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    .show_menu {
+        display: block;
+    }
+
+    .mobile_menu {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+  .logo img {
+    width: 45%;
+  }
+
+  .menu {
+    width: calc(100% - 50%);
+  }
+} 
